@@ -11,7 +11,6 @@ public class OrdenacaoArray {
         for (int i = 0; i < meuArray.length; i++) {
             for (int j = i + 1; j < meuArray.length; j++) {
                 if (meuArray[i] > meuArray[j]) {
-                    // Troca os elementos se estiverem fora de ordem Buble sort
                     int temp = meuArray[i];
                     meuArray[i] = meuArray[j];
                     meuArray[j] = temp;
@@ -20,9 +19,14 @@ public class OrdenacaoArray {
         }
 
         System.out.println("Array ordenado:");
+        for (int i = 0; i < meuArray.length; i++) {
+            System.out.println(" " + meuArray[i]);
+        }
+
+        System.out.println("Foreach");
         // foreach pra printar o array
-        for (int passo : meuArray) {
-            System.out.print(" " + meuArray[passo]);
+        for (int i : meuArray) {
+            System.out.println(i);
         }
     }
 }
