@@ -1,4 +1,4 @@
-package orientado;
+package matematicos;
 
 public class ArraysTest {
 

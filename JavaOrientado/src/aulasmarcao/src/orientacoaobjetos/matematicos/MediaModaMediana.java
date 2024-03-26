@@ -1,4 +1,4 @@
-package orientado;
+package matematicos;
 
 import java.util.Arrays;
 
