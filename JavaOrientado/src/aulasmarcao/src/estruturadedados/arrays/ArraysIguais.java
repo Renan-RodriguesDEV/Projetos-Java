@@ -1,6 +1,8 @@
+package arrays;
+
 public class ArraysIguais {
     public static void main(String[] args) {
-        int[] array_1 = { 1, 2, 2, 4, 5, 6 };
+        int[] array_1 = { 1, 2, 2, 4, 5, 6, 7, 8 };
         int[] array_2 = { 1, 2, 2, 4, 5, 6, 7, 8 };
         if (isIgual(array_1, array_2)) {
             System.out.println("sao iguais");

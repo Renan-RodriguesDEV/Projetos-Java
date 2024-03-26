@@ -1,3 +1,5 @@
+package aplicacoes;
+
 import javax.swing.JOptionPane;
 
 /**
@@ -12,7 +14,7 @@ public class TrianguloRetangulo {
         int l3 = Integer.parseInt(JOptionPane.showInputDialog("Insira o l3: "));
 
         if (l1 + l2 > l3 || l2 + l3 > l1 || l3 + l1 > l2) {
-            
+
             System.out.println("Forma um triangulo retangulo");
         } else {
             System.out.println("nao e retangular");

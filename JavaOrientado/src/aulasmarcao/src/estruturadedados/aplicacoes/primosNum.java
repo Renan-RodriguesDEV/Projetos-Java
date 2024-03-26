@@ -1,4 +1,4 @@
-
+package aplicacoes;
 
 public class primosNum {
     public static void main(String[] args) {

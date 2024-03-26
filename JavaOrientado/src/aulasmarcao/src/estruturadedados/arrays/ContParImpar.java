@@ -1,4 +1,4 @@
-
+package arrays;
 
 //package orientacaoObjetos.matematica.matematicosOutros;
 

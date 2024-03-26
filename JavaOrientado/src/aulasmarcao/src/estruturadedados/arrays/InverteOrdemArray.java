@@ -1,3 +1,5 @@
+package arrays;
+
 public class InverteOrdemArray {
     public static void main(String[] args) {
         int nums[] = { 5, 2, 10, 4, 1 };

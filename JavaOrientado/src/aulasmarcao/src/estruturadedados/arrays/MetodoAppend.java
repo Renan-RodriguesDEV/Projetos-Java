@@ -1,3 +1,5 @@
+package arrays;
+
 public class MetodoAppend {
     public static void main(String[] args) {
         int[] dados = { 10, 20, 30 };

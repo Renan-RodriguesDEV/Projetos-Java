@@ -1,3 +1,5 @@
+package arrays;
+
 import javax.swing.JOptionPane;
 
 /**

@@ -1,3 +1,5 @@
+package aplicacoes;
+
 import javax.swing.JOptionPane;
 
 public class DecimalParaBinario {

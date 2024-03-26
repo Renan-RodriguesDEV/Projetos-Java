@@ -1,3 +1,5 @@
+package arrays;
+
 public class MetodoisSorted {
     public static void main(String[] args) {
         int[] nums = { 1, 2, 3, 4 };
