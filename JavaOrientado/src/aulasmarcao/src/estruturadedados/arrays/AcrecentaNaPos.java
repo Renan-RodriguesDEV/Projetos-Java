@@ -4,8 +4,8 @@ public class AcrecentaNaPos {
     public static void main(String[] args) {
         int numacresentado = 20;
         int posicaoacresentado = 1;
-
         int num[] = { 1, 2, 3, 4, 5 };
+
         if (posicaoacresentado <= num.length) {
             num = acresentaNaPos(num, posicaoacresentado, numacresentado);
             for (int i : num) {
@@ -14,6 +14,7 @@ public class AcrecentaNaPos {
         } else {
             System.out.println("posicao invalida");
         }
+
     }
 
     static int[] acresentaNaPos(int[] num, int posicaoacresentado, int numacresentado) {
